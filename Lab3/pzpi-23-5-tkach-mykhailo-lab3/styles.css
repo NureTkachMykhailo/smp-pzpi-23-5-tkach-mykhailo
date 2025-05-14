@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header, .footer {
+    background-color: #f1f1f1;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+}
+
+.nav-item {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon {
+    margin-right: 5px;
+}
+
+.separator {
+    color: #999;
+}
+
+.content {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+/* Универсальный стиль для всех кнопок */
+.btn, button, input[type="submit"], .btn-send, .btn-delete {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #388E3C;
+    padding: 8px 16px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: all 0.2s;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+.btn:hover, button:hover, input[type="submit"]:hover, .btn-send:hover, .btn-delete:hover {
+    background-color: #45a049;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+.btn:active, button:active, input[type="submit"]:active, .btn-send:active, .btn-delete:active {
+    transform: translateY(1px);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.btn-delete {
+    background-color: #f44336;
+    border-color: #d32f2f;
+}
+
+.btn-delete:hover {
+    background-color: #e53935;
+}
+
+.btn-checkout {
+    background-color: #2196F3;
+    border-color: #1976D2;
+}
+
+.btn-checkout:hover {
+    background-color: #1E88E5;
+}
+
+.btn-send {
+    width: 200px;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+/* Стили для полей ввода */
+input[type="text"], input[type="number"], input[type="email"], textarea, select {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+input[type="number"] {
+    width: 60px;
+    text-align: center;
+}

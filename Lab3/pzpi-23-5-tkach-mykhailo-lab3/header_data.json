@@ -1,0 +1,37 @@
+{
+  "navigation": [
+    {
+      "name": "Home",
+      "link": "index.php",
+      "icon": "🏠"
+    },
+    {
+      "name": "Products",
+      "link": "products.php",
+      "icon": "📦"
+    },
+    {
+      "name": "Cart",
+      "link": "cart.php",
+      "icon": "🛒"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Home",
+      "link": "index.php"
+    },
+    {
+      "name": "Products",
+      "link": "products.php"
+    },
+    {
+      "name": "Cart",
+      "link": "cart.php"
+    },
+    {
+      "name": "About Us",
+      "link": "about.php"
+    }
+  ]
+}

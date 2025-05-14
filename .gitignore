@@ -1,0 +1,31 @@
+# JetBrains IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# PHP specific files
+/vendor/
+composer.lock
+composer.phar
+*.log
+
+# Operating System specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Debug files
+debug_log.txt
+
+# Other common files to ignore
+/node_modules/
+/npm-debug.log
+/yarn-error.log
+/yarn-debug.log
+*.swp
+*.swo
+*.bak
+*~
+*.tmp
