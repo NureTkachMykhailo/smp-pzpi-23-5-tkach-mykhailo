@@ -1,4 +1,13 @@
-# JetBrains IDE files
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# User uploads
+uploads/*
+!uploads/.gitkeep
+
+# IDE files
 .idea/
 *.iml
 *.iws

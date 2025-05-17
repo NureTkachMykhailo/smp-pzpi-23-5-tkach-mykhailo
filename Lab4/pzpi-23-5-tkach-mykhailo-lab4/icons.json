@@ -1,0 +1,102 @@
+{
+  "icons": [
+    {
+      "name": "Home",
+      "link": "index.php",
+      "icon": "🏠",
+      "page": "header",
+      "display_in_header": 1
+    },
+    {
+      "name": "Products",
+      "link": "products.php",
+      "icon": "📦",
+      "page": "header",
+      "display_in_header": 1
+    },
+    {
+      "name": "Cart",
+      "link": "cart.php",
+      "icon": "🛒",
+      "page": "header",
+      "display_in_header": 1
+    },
+    {
+      "name": "Profile",
+      "link": "profile.php",
+      "icon": "👤",
+      "page": "header",
+      "display_in_header": 1
+    },
+    {
+      "name": "Login",
+      "link": "login.php",
+      "icon": "🔑",
+      "page": "header",
+      "display_in_header": 0
+    },
+    {
+      "name": "Signup",
+      "link": "signup.php",
+      "icon": "📝",
+      "page": "header",
+      "display_in_header": 0
+    },
+    {
+      "name": "User",
+      "link": "",
+      "icon": "👤",
+      "page": "profile",
+      "display_in_header": 0
+    },
+    {
+      "name": "Orders",
+      "link": "orders.php",
+      "icon": "📋",
+      "page": "profile",
+      "display_in_header": 0
+    },
+    {
+      "name": "Shop",
+      "link": "products.php",
+      "icon": "🛒",
+      "page": "profile",
+      "display_in_header": 0
+    },
+    {
+      "name": "Developer",
+      "link": "",
+      "icon": "👨‍💻",
+      "page": "about",
+      "display_in_header": 0
+    },
+    {
+      "name": "Lecturer",
+      "link": "",
+      "icon": "👨‍🏫",
+      "page": "about",
+      "display_in_header": 0
+    },
+    {
+      "name": "Email",
+      "link": "",
+      "icon": "📧",
+      "page": "about",
+      "display_in_header": 0
+    },
+    {
+      "name": "Institution",
+      "link": "",
+      "icon": "🏫",
+      "page": "about",
+      "display_in_header": 0
+    },
+    {
+      "name": "Heart",
+      "link": "",
+      "icon": "💖",
+      "page": "about",
+      "display_in_header": 0
+    }
+  ]
+}
